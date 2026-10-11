@@ -1,0 +1,38 @@
+# Beads / Dolt files (added by bd init)
+.dolt/
+*.db
+.beads-credential-key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+
+# Never commit media, job files or anything produced from real footage.
+# Keep jobs and outputs outside the repository; these patterns are a backstop.
+*.mp4
+*.mov
+*.m4v
+*.mkv
+*.avi
+*.webm
+*.png
+*.jpg
+*.jpeg
+*.npz
+*.track.json
+*.terms.txt
+jobs/
+work/
+review/
+*.review/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

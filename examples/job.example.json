@@ -1,0 +1,20 @@
+{
+  "input": "clip.mp4",
+  "output": "clip.redacted.mp4",
+  "reference": "clip.job.ref.png",
+  "track": [
+    [100, 40, 900, 90],
+    [120, 140, 200, 60],
+    [700, 600, 120, 80]
+  ],
+  "redact": [
+    {"label": "top-lines", "box": [180, 60, 300, 40]},
+    {"label": "clock", "box": [820, 50, 150, 26]}
+  ],
+  "padding": 2,
+  "search": null,
+  "keep": [],
+  "blackout": [],
+  "audio": false,
+  "options": {}
+}
