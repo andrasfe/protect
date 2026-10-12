@@ -159,3 +159,7 @@ pytest
 
 The tests build synthetic footage (a textured panel moving under known
 homographies), so no real video is needed. The end-to-end tests need ffmpeg.
+
+## License
+
+MIT. See [LICENSE](LICENSE).

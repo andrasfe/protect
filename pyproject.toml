@@ -8,6 +8,7 @@ version = "0.1.0"
 description = "Black out sensitive regions on a moving screen or other flat surface in video."
 readme = "README.md"
 requires-python = ">=3.10"
+license = {text = "MIT"}
 dependencies = [
     "numpy>=1.24",
     "opencv-python>=4.8",
